@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Roomdatabase18102021">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.features.home.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
