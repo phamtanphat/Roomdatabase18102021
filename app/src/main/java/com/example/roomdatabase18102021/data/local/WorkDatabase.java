@@ -10,7 +10,7 @@ import androidx.room.RoomDatabase;
 @Database(entities = {WorkEntity.class}, version = 1)
 public abstract class WorkDatabase extends RoomDatabase {
     private static WorkDatabase instance = null;
-    public WorkDao workDao;
+    public abstract WorkDao workDao();
 
     public synchronized static WorkDatabase getInstance(Context context){
         if (instance == null){
